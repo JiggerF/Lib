@@ -36,6 +36,7 @@ namespace UnitTestProject1
         {
             Driver.Instance.Close();
             Driver.Instance.Quit();
+            Console.WriteLine($"Closing webdriver....... ");
         }
     }
 }
